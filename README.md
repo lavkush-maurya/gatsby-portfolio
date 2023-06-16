@@ -29,7 +29,7 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - Click on project links to view live demos or visit GitHub repositories
 - Use the contact form or provided social media links to get in touch with me
 
-**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)
+**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)**
 
 **Screenshots:**
 
