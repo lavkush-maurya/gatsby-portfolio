@@ -24,20 +24,20 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - Run `gatsby develop` to start the development server
 - Open the project in your browser using the provided URL
 
-**Usage: 
+**Usage:** 
 - Explore the different sections to learn about my projects, skills, and experiences
 - Click on project links to view live demos or visit GitHub repositories
 - Use the contact form or provided social media links to get in touch with me
 
-**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)
+**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)**
 
-**Screenshots: 
+**Screenshots: **
 - Include relevant screenshots showcasing the project's user interface and important components.
 
-**Contributing: Contributions to the project are welcome. Please follow the guidelines outlined in the CONTRIBUTING.md file.
+> Contributing: Contributions to the project are welcome. Please follow the guidelines outlined in the CONTRIBUTING.md file.
 
-**License: This project is released under the MIT License.
+> License: This project is released under the MIT License.
 
-**Author: Lavkush Maurya
+## Author: **Lavkush Maurya**
 
-**Contact Information: For any questions or feedback, feel free to reach out to me at [lavkushmaurya147@gmail.com][https://lavkushreactjs.web.app/]
+**Contact Information:** For any questions or feedback, feel free to reach out to me at [lavkushmaurya147@gmail.com][https://lavkushreactjs.web.app/]
