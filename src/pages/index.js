@@ -5,12 +5,21 @@ import * as styles from "../styles/home.module.css";
 import Img from "gatsby-image";
 
 export default function Home({ data }) {
-  console.log(data);
+  // console.log(data);
 
   return (
     <Layout>
-      <section className={styles.header}>
-        <div>
+      <section
+        className={styles.header}
+        style={{ display: "grid" }}
+      >
+        <div className={styles.imageWrapper}>
+          <Img
+            fluid={data.file.childImageSharp.fluid}
+            style={{ margin: "10px" }}
+          />
+        </div>
+        <div className={styles.contentWrapper}>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
           <p>UX designer & web developer based in Manchester.</p>
@@ -18,10 +27,6 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-        <Img
-          fluid={data.file.childImageSharp.fluid}
-          style={{ margin: "10px" }}
-        />
       </section>
     </Layout>
   );

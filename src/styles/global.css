@@ -24,6 +24,16 @@ p {
   margin: 16px;
   line-height: 1.5em;
 }
+/* ------------- */
+.header {
+  grid-template-columns: "1fr 1fr";
+}
+
+@media (max-width: 700px) {
+  .header {
+    grid-template-columns: "1fr";
+  }
+}
 
 /* layout & nav */
 .layout {
@@ -31,10 +41,10 @@ p {
   margin: 0 auto;
 }
 nav {
-   display: grid;
+  display: grid;
   grid-template-columns: 1fr 1fr;
-   margin: 40px;
-} 
+  margin: 40px;
+}
 .nav {
   display: flex;
   justify-content: space-between;
@@ -75,7 +85,6 @@ footer p {
   margin: 40px auto;
 }
 
-
 #no-scroll {
   overflow: hidden;
   height: 100vh;
@@ -95,3 +104,4 @@ footer p {
 #preloader-none {
   opacity: 0;
 }
+/* ----------- */
