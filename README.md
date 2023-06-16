@@ -18,7 +18,7 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - CSS3
 - JavaScript
 
-**Installation and Setup: **
+**Installation and Setup:**
 - Clone the repository
 - Run `npm install` to install dependencies
 - Run `gatsby develop` to start the development server
@@ -29,10 +29,10 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - Click on project links to view live demos or visit GitHub repositories
 - Use the contact form or provided social media links to get in touch with me
 
-**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)**
+**Demo: Visit the live demo of the project at [https://lavkushgatsby.netlify.app/](https://lavkushgatsby.netlify.app/)
 
-**Screenshots: **
-- Include relevant screenshots showcasing the project's user interface and important components.
+**Screenshots:**
+
 
 > Contributing: Contributions to the project are welcome. Please follow the guidelines outlined in the CONTRIBUTING.md file.
 
