@@ -2,13 +2,28 @@
 title: Html Portfolio
 stack: Html, Css, jQuery & Javascript
 slug: html-portfolio
+liveSite: https://lavkush-maurya.github.io/Portfolio/
 date: 2023-01-05T00:00:00+00:00
-# thumb: ../images/thumbs/coffee.png
-# featuredImg: ../images/featured/coffee-banner.png
+thumb: ../images/thumbs/portfolio.png
+featuredImg: ../images/featured/resume-banner.png
 ---
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+# HTML Portfolio
 
-### html-portfolio
+Creating an HTML portfolio website involves several key steps to showcase your skills and projects effectively. Firstly, you need to plan and gather the content for your portfolio, deciding on the sections you want to include, such as an about section, projects/work section, skills section, and contact information. Once you have your content ready, you can proceed to structure your HTML document. This involves using semantic HTML tags like `<header>`, `<main>`, `<footer>`, and `<section>` to organize your portfolio's different sections.
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+Start by creating the header section, which typically includes your name, a brief introduction, and a navigation menu linking to various sections. Next, develop an about section where you can provide relevant information about yourself, your background, and your skills. Incorporate an image of yourself to personalize the section.
+
+For showcasing your projects or work, create a dedicated section that highlights your accomplishments. Use HTML elements like `<figure>` and `<figcaption>` to display project images along with their descriptions. Consider adding links to live demos or repositories on platforms like GitHub.
+
+To demonstrate your skills, dedicate a section to showcasing them. You can utilize HTML lists or icons to present your skills, potentially categorizing them if desired.
+
+Additionally, include a contact section providing your contact information, such as your email, phone number, and links to your social media profiles. This section enables potential clients or employers to reach out to you easily.
+
+To enhance the visual appeal and responsiveness of your portfolio, apply CSS styling. Define fonts, colors, layout, and spacing to create a visually pleasing design. Employ CSS media queries to ensure your portfolio adapts well to different devices and screen sizes.
+
+For added interactivity, consider incorporating JavaScript or libraries like jQuery. Implement smooth scrolling, image sliders, tooltips, or animations to engage visitors and create a more interactive experience.
+
+Once your portfolio is complete, thoroughly test it across multiple browsers and devices to ensure consistent functionality and appearance. Resolve any issues or bugs encountered during testing. Finally, deploy your portfolio website to a web server or a hosting platform, making it accessible to others.
+
+Remember to periodically update your portfolio with your latest projects and achievements to showcase your ongoing growth and skills effectively. Following these steps will help you create an impressive HTML portfolio website that effectively presents your skills, projects, and achievements to potential employers or clients.

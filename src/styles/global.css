@@ -60,7 +60,7 @@ footer {
   justify-content: center;
 }
 footer p {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   color: #ffcc00;
   margin: 40px auto;

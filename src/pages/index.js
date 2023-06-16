@@ -18,7 +18,10 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img
+          fluid={data.file.childImageSharp.fluid}
+          style={{ margin: "10px" }}
+        />
       </section>
     </Layout>
   );

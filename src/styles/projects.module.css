@@ -3,7 +3,7 @@
 }
 .portfolio > h2 {
   font-size: 3em;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 .portfolio > h3 {
   font-size: 2em;
@@ -12,8 +12,8 @@
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 80px;
-  margin: 80px 20px;
+  grid-gap: 40px;
+  margin: 40px 20px;
 }
 .projects h3 {
   text-align: center;

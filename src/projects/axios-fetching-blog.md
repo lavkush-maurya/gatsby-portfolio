@@ -2,13 +2,30 @@
 title: Axios-fetching Blog with Night mode
 stack: ReactJs
 slug: axios-fetching-blog
+liveSite: https://blogpagal.web.app/
 date: 2023-03-05T00:00:00+00:00
-# thumb: ../images/thumbs/coffee.png
-# featuredImg: ../images/featured/coffee-banner.png
+thumb: ../images/thumbs/Blog-API.png
+featuredImg: ../images/featured/blog-banner.png
 ---
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+### Axios-fetching-blog
 
-### axios-fetching-blog
+To begin, you'll need to choose a front-end framework such as React, Vue.js, or Angular. For this example, we'll use React. Set up a new React project using Create React App or your preferred boilerplate tool.
 
-Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.
+Next, style your blog using CSS or a CSS preprocessor like Sass or Less. Create two separate stylesheets—one for the day mode and one for the night mode. These stylesheets will define the visual appearance of your blog in different lighting conditions.
+
+Set up routing within your React app using a library like React Router. This allows users to navigate between different pages or blog posts seamlessly.
+
+To handle API calls, install Axios, a JavaScript library that simplifies making HTTP requests. Axios will be used to fetch blog posts or other content from your server.
+
+Create a reusable component in React to display your blog posts. This component will receive the data fetched from the server via Axios and dynamically render it on the page.
+
+Now it's time to implement the night mode feature. Add a toggle button or switch in your UI that allows users to switch between day and night modes. When the user activates the night mode, update the CSS classes or theme dynamically to switch to the appropriate stylesheet with dark colors and styles.
+
+To remember the user's preference for night mode, you can use the browser's local storage or session storage. Whenever the user switches modes, save their preference in storage, and retrieve it when the page loads. This way, the blog will load in the user's preferred mode automatically.
+
+Ensure that your night mode feature is accessible to all users. Consider providing alternative color schemes or options for users with visual impairments. Accessibility should be a key consideration in designing and implementing the night mode feature.
+
+Finally, deploy your blog to a web server or a platform like Netlify, Vercel, or GitHub Pages. Test your blog thoroughly in different browsers and devices to ensure compatibility and functionality.
+
+By following these steps, you'll be able to create an Axios-fetching blog with a night mode feature using React or any other front-end framework of your choice. Remember to adapt these instructions based on your specific requirements and technologies used.
