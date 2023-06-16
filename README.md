@@ -2,7 +2,7 @@
 
 Description: A personal portfolio website built using Gatsby showcasing my skills, projects, and experiences. It provides an interactive and visually appealing platform for visitors to explore my work and learn more about me.
 
-**Key Features:
+**Key Features:**
 - Responsive design for seamless viewing on different devices
 - Project showcase with descriptions, images, and technologies used
 - About Me section highlighting my background, skills, and achievements
@@ -10,7 +10,7 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - Contact section with a contact form and social media links
 - Customizable design options to reflect personal branding
 
-**Technologies Used:
+**Technologies Used:**
 - Gatsby
 - React
 - GraphQL
@@ -18,7 +18,7 @@ Description: A personal portfolio website built using Gatsby showcasing my skill
 - CSS3
 - JavaScript
 
-**Installation and Setup: 
+**Installation and Setup: **
 - Clone the repository
 - Run `npm install` to install dependencies
 - Run `gatsby develop` to start the development server
