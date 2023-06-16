@@ -1,20 +1,28 @@
 import { Link, graphql, useStaticQuery } from "gatsby";
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 export default function Navbar() {
   //---------
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
-  function scrollHandler() {
-    if (window.scrollY >= 20) {
-      updateNavbar(true);
-    } else {
-      updateNavbar(false);
+  useEffect(() => {
+    function scrollHandler() {
+      if (window.scrollY >= 20) {
+        updateNavbar(true);
+      } else {
+        updateNavbar(false);
+      }
     }
-  }
 
-  window.addEventListener("scroll", scrollHandler);
+    if (typeof window !== "undefined") {
+      window.addEventListener("scroll", scrollHandler);
+
+      return () => {
+        window.removeEventListener("scroll", scrollHandler);
+      };
+    };
+  }, []);
   // --------------
   const data = useStaticQuery(graphql`
     query MainTitle {
@@ -38,7 +46,7 @@ export default function Navbar() {
       </Link>
       <nav 
         onClick={() => {
-          updateExpanded(expand ? false : "expanded");
+          updateExpanded((prevExpand) => !prevExpand);
         }}
       >
         <span></span>
