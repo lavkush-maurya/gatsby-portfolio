@@ -1,4 +1,4 @@
-##Project Name: Gatsby Portfolio
+## Project Name: Gatsby Portfolio
 
 Description: A personal portfolio website built using Gatsby showcasing my skills, projects, and experiences. It provides an interactive and visually appealing platform for visitors to explore my work and learn more about me.
 
