@@ -10,6 +10,7 @@
 html,
 body {
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   background: radial-gradient(
@@ -30,19 +31,26 @@ p {
   margin: 0 auto;
 }
 nav {
-  display: grid;
+   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px;
+   margin: 40px;
+} 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .link {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
 }
+
 nav .links {
   display: inline-block;
   margin-left: 20px;
 }
+
 nav a {
   display: inline-block;
   margin-left: 20px;
@@ -50,6 +58,7 @@ nav a {
   padding-bottom: 8px;
   border-bottom: 3px solid transparent;
 }
+
 nav a:hover {
   border-color: white;
 }
@@ -60,8 +69,29 @@ footer {
   justify-content: center;
 }
 footer p {
-  /* position: fixed; */
+  position: fixed;
   bottom: 0;
   color: #ffcc00;
   margin: 40px auto;
+}
+
+
+#no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: #50c850;
+  background-image: url(../images/bars.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#preloader-none {
+  opacity: 0;
 }
