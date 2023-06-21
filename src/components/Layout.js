@@ -1,21 +1,21 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./Navbar";
 import "../styles/global.css";
-import Preloader from "./Pre"
+import Preloader from "./Pre";
 
 export default function Layout({ children }) {
-    // ------------ Load page
-    const [load, updateLoad] = useState(true);
-    useEffect(() => {
-      const timer = setTimeout(() => {
-        updateLoad(false);
-      }, 1200);
-      return () => clearTimeout(timer);
-    },[]);
+  // ------------ Load page
+  const [load, updateLoad] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      updateLoad(false);
+    }, 1200);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <div className="layout">
-        <Preloader load={load} />
+      <Preloader load={load} />
       <div className="navbar">
         <Navbar id={load ? "no-scroll" : "scroll"} />
       </div>
@@ -26,7 +26,18 @@ export default function Layout({ children }) {
         {children}
       </div>
       <footer>
-        <p> © 2023 - Created with 💛 - Lavkush Maurya</p>
+        <p>
+          {" "}
+          © 2023 - Created with 💛 -{" "}
+          <a
+            className="llink"
+            href="http://lavkushreactjs.web.app/"
+            target="_blank"
+            rel="link to contact me"
+          >
+            Lavkush Maurya
+          </a>
+        </p>
       </footer>
     </div>
   );

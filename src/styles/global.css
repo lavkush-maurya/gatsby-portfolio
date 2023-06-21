@@ -84,7 +84,9 @@ footer p {
   color: #ffcc00;
   margin: 40px auto;
 }
-
+.llink {
+  color: #ffcc00;
+}
 #no-scroll {
   overflow: hidden;
   height: 100vh;
